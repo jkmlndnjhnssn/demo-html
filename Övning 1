@@ -1,7 +1,7 @@
 <html lang="en">
-    <head style = "border-bottom: solid 1px black;">
+    <head>
     <meta charset="utf-8">
-        <title>Joakim Lindén Johansson - Övning 1</title>
+        <title style = "border-bottom: solid 1px black;">Joakim Lindén Johansson - Övning 1</title>
     </head>
     
     <body style ="background-color: #ffffff">
