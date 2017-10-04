@@ -4,14 +4,14 @@
         <title>Joakim Lindén Johansson - Övning 1</title>
     </head>
     
-    <body style ="background-color: #ffffff border: solid 1px black;">
-    
+    <body style ="background-color: #ffffff">
+      <div id="wrapp" style ="border: solid 1px black;">
       <h1>HTML intro - 2.10.2017</h1>
         
         <p>Jag missade föreläsningen men har sett att man har gått igenom olika taggar. <br> Detta skulle man använda i den här första uppgiften. </p>
                 <img src ="https://nouwcdn.com/8/1100000/1080000/1079705/pics/201591519415643001079705_sbig.jpg"/>
         
-        <i>Bild på varifrån jag reste under måndagen, när jag missade föreläsningen. <strong>Östersund</strong></i>
+        <br><i>Bild på varifrån jag reste under måndagen, när jag missade föreläsningen. <strong>Östersund</strong></i>
         
         <br>
         
@@ -40,5 +40,6 @@
         <br>
         <p>En sida jag ofta går in på vid tillfällen av tristess: </p>
         <a href = "http://feber.se" target="_blank">Feber</a>
+        </div>
     </body>
 </html>
