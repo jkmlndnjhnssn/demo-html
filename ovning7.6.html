@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joakim Lindén Johansson - Övning 7.4</title>
+    <style>
+        
+        #greenbox {
+          width: 650px;
+          height: 30px;
+          background-color: #90ee90;
+        }
+        
+        #tableheadline {
+          margin-left: 200px;
+          
+        }
+        
+        #faketable {
+          text-align: center;
+        }
+        
+        #tbackground {
+          width: 500px;
+          height: 215px;
+          background-color: #ecf6ce;
+          outline-style: solid;
+          outline-color: #a9a9a9;
+          outline-width: 3px;
+          z-index: 1;
+          position: absolute;
+        }
+        
+        #theader1 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 5px;
+          margin-top: 3px;
+          outline-style: dashed;
+          outline-color: #8a4b08;
+          outline-offset: -4px;
+          background-color:#f5da81;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #theader2 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 128px;
+          margin-top: 3px;
+          outline-style: dashed;
+          outline-color: #8a4b08;
+          outline-offset: -4px;
+          background-color:#f5da81;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #theader3 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 252px;
+          margin-top: 3px;
+          outline-style: dashed;
+          outline-color: #8a4b08;
+          outline-offset: -4px;
+          background-color:#f5da81;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #theader4 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 376px;
+          margin-top: 3px;
+          outline-style: dashed;
+          outline-color: #8a4b08;
+          outline-offset: -4px;
+          background-color:#f5da81;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson11 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 5px;
+          margin-top: 45px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson12 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 128px;
+          margin-top: 45px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson13 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 252px;
+          margin-top: 45px;
+          background-color: #ffd700;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson14 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 376px;
+          margin-top: 45px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson21 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 5px;
+          margin-top: 88px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson22 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 128px;
+          margin-top: 88px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson23 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 252px;
+          margin-top: 88px;
+          background-color: #c0c0c0;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson24 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 376px;
+          margin-top: 88px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson31 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 5px;
+          margin-top: 130px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson32 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 128px;
+          margin-top: 130px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson33 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 252px;
+          margin-top: 130px;
+          background-color: #b18904;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson34 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 376px;
+          margin-top: 130px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson41 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 5px;
+          margin-top: 173px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson42 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 128px;
+          margin-top: 173px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson43 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 252px;
+          margin-top: 173px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        #tperson44 {
+          position: absolute;
+          z-index: 2;
+          margin-left: 376px;
+          margin-top: 173px;
+          outline-style: dotted;
+          outline-color: #a9a9a9;
+          outline-offset: -4px;
+          width:120px;
+          height: 40px;
+          font-size: 1.1em;
+        }
+        
+        @keyframes example {
+          0%   {color: #EFAC41;}
+          25%  {color: #DE8531;}
+          50%  {color: #B32900;}
+          100% {color: #6C1305;}
+        }
+        
+        h1, h2 {
+          animation-name: example;
+          animation-duration: 4s;
+          animation-iteration-count: 20;
+        }
+        
+        
+        p {
+          font-size: 1.2em;
+        }
+        
+    </style>
+  </head>
+    <body>
+        <div id="greenbox"></div>
+        <h1>Work in progress</h1>
+          <h2>Övning 2</h2>
+          <div id="tableheadline">
+          <p>Kula, damer, OS 2016</p>
+          </div>
+          
+          <div id="faketable">
+            <div id="tbackground"></div>
+              <div id="theader1">Idrottare</div>
+              <div id="theader2">Resultat</div>
+              <div id="theader3">Placering</div>
+              <div id="theader4">Land</div>
+                <div id="tperson11">Michelle Carter</div>
+                <div id="tperson12">20,63m</div>
+                <div id="tperson13">1</div>
+                <div id="tperson14" class="text">USA</div>
+                  <div id="tperson21">Valarie Adams</div>
+                  <div id="tperson22">20,42m</div>
+                  <div id="tperson23">2</div>
+                  <div id="tperson24" class="text">Nya Zeeland</div>
+                    <div id="tperson31">Anita Márton</div>
+                    <div id="tperson32">19,87m</div>
+                    <div id="tperson33">3</div>
+                    <div id="tperson34" class ="text">Ungern</div>
+                      <div id="tperson41">Gong Lijiao</div>
+                      <div id="tperson42">19,87m</div>
+                      <div id="tperson43">4</div>
+                      <div id="tperson44" class="text">Kina</div>
+          </div>  
+    </body>
+</html>
