@@ -1,0 +1,23 @@
+#svartbox {
+  margin: auto;
+  background-color: black;
+  width: 70%;
+  height: 1000px;
+}
+
+#vitbox {
+  width: 20%;
+  height: 200px;
+  background-color: white;
+  position: fixed;
+  left: 200px;
+}
+
+#greenbox {
+  width: 60%;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  left: 10px;
+  top: 50px;
+}
