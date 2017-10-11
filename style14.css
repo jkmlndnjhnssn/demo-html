@@ -1,0 +1,19 @@
+.black {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+}
+.white {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+}
+
+
+.ram {
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  width: 200px;
+  height: 221px;
+}
