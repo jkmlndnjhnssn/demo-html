@@ -2,104 +2,37 @@
 <html lang="en">
     <head> 
         <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css" />
         <link rel="icon" type="image/png" href="https://i.imgur.com/UUZFDi3.png">
         <title>Joakim Lindén Johansson</title>
         
-        <!--HTML styling-->
-        <style> 
-          @font-face {
-            font-family: "SFnormal";
-            src: url('https://github.com/jkmlndnjhnssn/demo-html/SanFranciscoFont-master/SanFranciscoDisplay-Medium.otf') format('truetype');
-            font-weight: bold;
-            font-style: normal;
-          }
-          body {
-                text-align: center;
-                background-color: white;
-                font-family: SFnormal;
-                color: black;
-            }
-            #name {
-                margin: auto;
-                margin-top: 10px;
-            }
-            #picwrap {
-                width: 80%;         
-                margin: 0 auto;
-                margin-top: 180px;
-            }
-            
-            a:link {               
-                color: black; 
-                font-family: SFnormal;
-                background-color: transparent; 
-                text-decoration: none;
-                font-size: 1em;
-            }
-            a:visited {
-                color: black;
-                background-color: transparent;
-                }
-            a:hover {
-                color: black;
-                background-color: transparent;
-                text-decoration: underline;
-            }
-            #about {
-                margin: auto;
-                width: 400px;
-
-            }
-            #educationinfo {
-                margin: auto;
-                width: 400px;
-            }
-
-            footer {
-                background-color: rgba(0,0,0,0.8);
-                font-family: SFnormal;
-                font-size: 1em;
-                height: auto;
-                width: auto;
-                color: white;
-            }
-           
-            footer img {
-                margin-top: 60px;
-                margin-bottom: 30px;
-                padding: 20px;
-            }
-            br {
-                clear: both;
-            }
-            #content {
-                width: 800px;
-                margin: auto;
-            }
-            
-        </style>
     </head>
      
-    <body style>
+    <body>
+      <nav>
+        <ul>
+          <li><a href="#about">Om mig</a></li>
+          <li><a href="#educationinfo">Utbildning</a></li>
+          <li><a href="https://jkmlndnjhnssn.github.io/demo-html/html-exercises.html">Övningar</a></li>
+        </ul>
+      </nav>
         <div id="picwrap">
           <img src ="https://i.imgur.com/hQmr4G0.png" height="200px" width="200px"/>
            <br>
         </div>
-        <div id="content">
-            <div id="name"><h1>Joakim Lindén Johansson</h1></div>
-          <div id="about">
-            <h2>Om mig </h2>
-            <p>Född 1991. Studerat interaktionsdesign vid Linnéuniversitetet i Kalmaroch innehar en kandidatexamen inom informatik. Studerar frontend-utvecklare för att dels bygga på kunskaperna men också för att bli mer konkurrenskraftig på arbetsmarknaden.</p>
-          </div>
-          <div id="educationinfo">
-            <h2>Pågående utbildning </h2>
-            <p>Denna YH-utbildning avser att sätta studenten i kontakt med arbetslivet och lära ut det senaste inom frontend. Utbildningn rör HTML, CSS, JavaScript och en introduktion till interaktions-/UX-design.</p>
-          </div>
-
-
+          <div id="content">
+              <div id="name"><h1>Joakim Lindén Johansson</h1></div>
             
-        <div id="exercises"><p><a href ="https://jkmlndnjhnssn.github.io/demo-html/html-exercises.html">Övningar</a></p></div>
-                </div>
+            <div id="about">
+              <h2>Om mig </h2>
+              <p>Född 1991. Studerat interaktionsdesign vid Linnéuniversitetet i Kalmaroch innehar en kandidatexamen inom informatik. Studerar frontend-utvecklare för att dels bygga på kunskaperna men också för att bli mer konkurrenskraftig på arbetsmarknaden.</p>
+            </div>
+              <div id="educationinfo">
+                <h2>Pågående utbildning </h2>
+                <p>Denna YH-utbildning avser att sätta studenten i kontakt med arbetslivet och lära ut det senaste inom frontend. Utbildningn rör HTML, CSS, JavaScript och en introduktion till interaktions-/UX-design.</p>
+              </div>
+          </div>
+        
         <footer>
             <a href="https://www.linkedin.com/in/joakim-lindén-johansson-7210ab93/" target="_blank">
             <img src ="https://i.imgur.com/VqIdLPX.png"/>
