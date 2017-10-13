@@ -1,0 +1,15 @@
+li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.show {
+  display: none;
+  width: 80px;
+}
+
+.hov:hover .show {
+  display: inline-block;
+  position: fixed;
+  margin-left: -40px;
+}
